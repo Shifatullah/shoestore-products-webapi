@@ -42,6 +42,18 @@ namespace ShoeStore.ProductsApi.Controllers
                 Stock = 5
             });
 
+            products.Add(new Product()
+            {
+                Id = 2,
+                Name = "iPhone 7",
+                Code = "iP7",
+                Cost = 2000,
+                ShortDescription = "iPhone 7 mobile phone",
+                LongDescription = "iPhone 7 mobile phone is better",
+                Rank = 3,
+                Stock = 8
+            });
+
             return products;
         }
     }
